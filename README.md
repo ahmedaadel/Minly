@@ -1,5 +1,5 @@
 # Minly 
-a complete project that provides a little media sharing platform .
+complete project that provides a minimal media sharing platform .
 
 ## Table of Contents
 - Architecture
