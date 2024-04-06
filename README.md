@@ -1,4 +1,4 @@
-#Minly 
+# Minly 
 a complete project that provides a little media sharing platform .
 
 ## Table of Contents
