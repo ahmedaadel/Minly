@@ -8,21 +8,21 @@ a complete project that provides a little media sharing platform .
 
 ## Architecture
 Database layer 
-  It is built using MYSQL database, it contains schema (minly_db) and table (media) which contain data related to both vedio and image
+  It is built using **MYSQL** database, it contains schema (**minly_db**) and table (**media**) which contain data related to both vedio and image
   
 Application Layer
-  It is built using Node.js and TypeScript, providing a web service that handles CRUD operations and other business logic.
+  It is built using **Node.js** and **TypeScript**, providing a web service that handles CRUD operations and other business logic.
   it contains operations that needed to interact with database such as create post - update state of the post(liked - unliked) - and retrieve post content - handling CORS    
 
 presentation layer 
-  In this project, the presentation layer is implemented as a mobile app using Flutter. 
+  In this project, the presentation layer is implemented as a mobile app using **Flutter**. 
   It interacts with the backend service to retrieve and display data to the user in an intuitive and responsive manner.
 
 ## setup Instructions
   - starting from mysql database :
       you are required to download mysql server and mysql workbench
-      then in the database file the is a (Database (1)) file you can use to import the schema --
-      or you can simple run sql commands that exists in (sql query.sql) file  both in database folder
+      then in the database file the is a (**Database (1)**) file you can use to import the schema --
+      or you can simple run sql commands that exists in (**sql query.sql**) file  both in **database folder**
 
    
    - for the nodejs and typescript:
@@ -42,7 +42,7 @@ presentation layer
 
 
 ## Additional Notes
-  - you have to update domainUrl variable in **flutter** application with the approperiate ip and port.
+  - you have to update **domainUrl** variable in **flutter** application with the approperiate ip and port.
     this var is in (lib/shared/constants)
 
-   - if you were to test React application you have to change **cors** origin port with the correct one in the (app.ts) in node js application 
+   - if you were to test React application you have to change **cors** origin port with the correct one in the (**app.ts**) in node js application 
