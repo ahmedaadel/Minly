@@ -15,7 +15,7 @@ complete project that provides a minimal media sharing platform .
   it contains operations that needed to interact with database such as create post - update state of the post(liked - unliked) - and retrieve post content - handling CORS    
 
 ### presentation layer 
-  In this project, the presentation layer is implemented as a mobile app using **Flutter**. 
+  In this project, the presentation layer is implemented as a mobile app using **Flutter** , and as a web app using **React**. 
   It interacts with the backend service to retrieve and display data to the user in an intuitive and responsive manner.
 
 ## setup Instructions
@@ -44,6 +44,12 @@ complete project that provides a minimal media sharing platform .
 
  - ### for flutter:
      you can follow this url in order to install suitable version (https://docs.flutter.dev/get-started/install)
+
+
+- ### for React
+    #### in order to start application
+  
+      1) run npm start
 
 
 ## Additional Notes
