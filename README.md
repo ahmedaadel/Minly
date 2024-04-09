@@ -1,10 +1,6 @@
 # Minly 
 complete project that provides a minimal media sharing platform .
 
-## Table of Contents
-- Architecture
-- Setup Instructions
-- Additional Notes
 
 ## Architecture
 ### Database layer 
